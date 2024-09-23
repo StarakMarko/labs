@@ -9,7 +9,7 @@ b = 8
 
 while a <= x <= b:
     if x < 5:
-        if log(abs(log(x, 3))) == 0:
+        if log(abs(log(x, 3)), 4) == 0:
             print("x =", x, "y =", "error")
         else:
             y = log(abs(log(abs(log(x, 3)), 4)), 5)
