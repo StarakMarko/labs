@@ -14,9 +14,9 @@ while a <= x <= b:
     n = 1
 
     while element > d:
-        y = y + (x**(2*n) - 1) / factorial(2*n - 1)
+        y += (x**(2*n) - 1) / factorial(2*n - 1)
         element = abs((x**(2*(n + 1)) - 1) / factorial(2*(n + 1) - 1))
-        n = n + 1
+        n += 1
 
     print("x =", x, "y =", y)
     x += h
