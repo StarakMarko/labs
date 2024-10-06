@@ -20,8 +20,6 @@ for element_a in A:
         if element_a == element_b and element_a not in result:
             result.append(element_a)
 
-
 len_result = len(result)
-
 
 print(len_result)
